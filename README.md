@@ -6,12 +6,6 @@ This repository contains the code for the paper [Distributed Upload and Active L
 - [TLDR](#TLDR)
 - [Abstract](#abstract)
 - [System Overview](#system-overview)
-- [Experimental Results](#experimental-results)
-- [Installation](#installation)
-  - [Packages](#packages)
-  - [Datasets](#datasets)
-- [How to run](#how-to-run)
-- [Citation](#citation)
 
 ## TLDR
 
@@ -28,3 +22,7 @@ In multi-robot systems, fleets are often deployed to collect data that improves 
 ![DUAL Framework](./assets/dual_framework.jpg)
 
 **Distributed Upload and Active Labeling (DUAL) Framework:** DUAL operates in two stages: (1) **Distributed Upload**: Each robot independently selects and uploads a subset of its local observations under storage and communication constraints, using submodular maximization to prioritize informative samples. (2) **Active Labeling**: The cloud aggregates all uploaded data and selects the most valuable subset to label under a global annotation budget, again using submodular maximization. This two-stage approach balances scalability with centralized efficiency, allowing robots to operate independently while ensuring high-quality dataset curation.
+
+## Code Structure
+
+To be added soon.
